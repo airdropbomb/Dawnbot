@@ -41,12 +41,12 @@ class Console:
     def show_dev_info(self):
         os.system("cls" if os.name == "nt" else "clear")
 
-        title = text2art("JamBit", font="small")
+        title = text2art("ADBNODE", font="small")
         styled_title = Text(title, style="bold cyan")
 
         version = Text("VERSION: 3.1", style="blue")
-        telegram = Text("Channel: https://t.me/JamBitPY", style="green")
-        github = Text("GitHub: https://github.com/Jaammerr", style="green")
+        telegram = Text("Channel: https://www.youtube.com/@airdropbombnode", style="green")
+        github = Text("GitHub: https://github.com/airdropbomb", style="green")
 
         dev_panel = Panel(
             Text.assemble(styled_title, "\n", version, "\n", telegram, "\n", github),
